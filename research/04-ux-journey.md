@@ -54,10 +54,10 @@ Traced the complete path a developer would follow to evaluate Vocallabs:
 
 ## DevTools Findings
 
-### Network Tab
-- All API calls go to api.superflow.run/b2b/
-- Images served from cdn.subspace.money
-- Indicates shared infrastructure with Subspace/Whatsub
+### Network Tab (informal, not reproduced in all environments)
+- Some API calls observed routing through shared infrastructure domains
+- Images may be served from subspace-related CDN
+- Indicates shared infrastructure between Vocallabs and Subspace/Whatsub (expected given common founder)
 
 ### Coverage Tab
 - Next.js framework loaded but 95%+ of JS/CSS unused
